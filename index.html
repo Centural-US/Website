@@ -3,7 +3,21 @@
   <head>
     <title>Centural - US</title>
   </head>
-  
+  <script src="https://raw.githubusercontent.com/ldilley/minestat/master/JavaScript/minestat.js">
+  minestat.init('centural.us', 25565, function(result)
+{
+  console.log("Minecraft server status of " + ms.address + " on port " + ms.port + ":");
+  if(ms.online)
+  {
+    console.log("Server is online running version " + ms.version + " with " + ms.current_players + " out of " + ms.max_players + " players.");
+    console.log("Message of the day: " + ms.motd);
+    console.log("Latency: " + ms.latency + "ms");
+  }
+  else
+  {
+    console.log("Server is offline!");
+  }
+});</script>
   <body>
     Hello World
   </body>
