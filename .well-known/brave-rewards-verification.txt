@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: centural.us
+Token: 76c24974ffdec91e3e5a7e951c2d2b191ebf88656bc6fc82aa0547a42d2643f9
