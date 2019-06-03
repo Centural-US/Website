@@ -2,12 +2,26 @@
 <html>
   <head>
     <title>Centural - US</title>
+    <style>
+      .tiny_embed {
+        border: 1px solid rgba(255,255,255,0.5);
+        font-size: 0.8em;
+      }
+    </style>
   </head>
   <body>
     <nav>
       <button>
         <a  href="contribute.html">Contribute</a>
-      </button> 
+      </button>
+      
+      <div class="tiny_embed" id="nav_login_register">
+        <a href=""> Establish Minecraft Profile Link </a>
+        <a href=""> Connect to Existing Profile </a>
+      </div>
+      <div class="tiny_embed default_hidden" id="nav_profile">
+        <a href="{{ profile.uuid }}"> {{ profile.username }}</a>
+      </div>
     </nav>
     <div>
       <article> 
