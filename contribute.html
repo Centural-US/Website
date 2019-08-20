@@ -1,6 +1,18 @@
 <html>
   <head>
     <style>
+      body, html {
+        height:100%
+      }
+      .bg{
+        background-image: url("Centural_Backdrop.png");
+        background-attachment: fixed;
+        height:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      /**/
       .topnav{
         background-color:#333;
         overflow:hidden;
@@ -23,7 +35,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="bg">
     <div id="wrapper">
         <div class="topnav">
             <a class="active" href="index.html" >Home</a>
@@ -38,7 +50,8 @@
   </body>
 </html>
 
-<!--    <button>
+<!--   
+   <button>
       VOTE
       <a href="https://minecraftservers.org/server/550651" target="_blank"><img src="https://status.minecraftservers.org/ocean/550651.png" alt="Centural Minecraft server" width="540" height="90" /></a>
     </button>
