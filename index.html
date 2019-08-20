@@ -3,6 +3,7 @@
   <head>
     <title>Centural - US</title>
     <style>
+      /* Background img */
       body, html {
         height:100%
       }
@@ -14,6 +15,7 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
+      /* Top taskbar */
       .topnav{
         background-color:#333;
         overflow:hidden;
@@ -34,6 +36,7 @@
         background-color: #4CAF50;
         color: white;
       }
+      /* hr code */
       hr { 
         display: block;
         margin-top: 0.5em;
@@ -43,6 +46,23 @@
         border-style: inset;
         border-width: 5px;
       } 
+      /* bottom nav */
+      .bottomnavbar {
+        background-color: rgb(212, 212, 212);
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .bottomnavbar a {
+        float: left;
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
     </style>
   </head>
   <body class="bg">
@@ -56,6 +76,9 @@
         <div>
           <center><img src="images/Logo.png" width="15%" height="15%"></img></center>
         </div>
+    </div>
+    <div class="bottomnavbar">
+        <a href="https://discord.gg/hkxddzG">Discord</a>
     </div>
   </body>
 </html>
