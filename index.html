@@ -28,13 +28,51 @@
         text-decoration: none;
         font-size: 17px;
       }
-      .topnav a:hover{
+      /* Dropdown topnav */
+      .dropdown{
+        float:left;
+        overflow: hidden;
+      }
+      .dropdown .dropbutton{
+        font-size: 17px;
+        border:none;
+        outline: none;
+        color:#f2f2f2;
+        padding: 14px 16px;
+        background-color: #333;
+        font-family: inherit;
+        margin: 0;
+      }
+      /**/
+      .topnav a:hover, .dropdown:hover .dropbutton{
         background-color: #ddd;
         color: black;
       }
-      .topnav a.active {
-        background-color: #4CAF50;
-        color: white;
+      /* More Dropdown Shit */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
       }
       /* hr code */
       hr { 
@@ -73,13 +111,19 @@
   <body class="bg" id="wrapper">
     <div id="wrapper">
         <div class="topnav">
-            <a class="active" href="index.html" >Home</a>
             <a href="contribute.html">Contribute</a>
             <a href="minecraft.html">Minecraft</a>
-            <a href="open_roller_coaster_tycoon_two.html">Open Roller Coaster Tycoon Two</a>
-            <a href="free_sims_online.html">Free Sims Online</a>
-            <a href="open_simulator.html">Open Simulator</a>
-            <a href="grand_theft_auto_five.html">Grand Theft Auto V</a>
+            <div class="dropdown">
+              <button class="dropbutton">
+                Tester Zone
+              </button>
+            </div>
+            <div class="dropdown-content">
+                <a href="open_roller_coaster_tycoon_two.html">Open Roller Coaster Tycoon Two</a>
+                <a href="free_sims_online.html">Free Sims Online</a>
+                <a href="open_simulator.html">Open Simulator</a>
+                <a href="grand_theft_auto_five.html">Grand Theft Auto V</a>
+            </div>
             <a href="about.html">About</a>
         </div>
         <hr>
