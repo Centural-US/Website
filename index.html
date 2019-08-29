@@ -19,40 +19,40 @@
 
 
 
-      /* Top taskbar */
-      .topnav{
-        background-color:#333;
-        overflow:hidden;
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
       }
-      .topnav a{
+
+      .navbar a {
         float: left;
-        color: #f2f2f2;
+        font-size: 16px;
+        color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
       }
-      /* Dropdown topnav */
-      .dropdown{
-        float:left;
+
+      .dropdown {
+        float: left;
         overflow: hidden;
       }
-      .dropdown .dropbtn{
-        font-size: 17px;
-        border:none;
+
+      .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
         outline: none;
-        color:#f2f2f2;
+        color: white;
         padding: 14px 16px;
-        background-color: #333;
+        background-color: inherit;
         font-family: inherit;
         margin: 0;
       }
-      /**/
-      .topnav a:hover, .dropdown:hover .dropbtn{
-        background-color: #ddd;
-        color: black;
+
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
       }
-      /* More Dropdown Shit */
+
       .dropdown-content {
         display: none;
         position: absolute;
@@ -78,11 +78,6 @@
       .dropdown:hover .dropdown-content {
         display: block;
       }
-
-
-
-
-      
       /* hr code */
       hr { 
         display: block;
@@ -119,7 +114,7 @@
   </head>
   <body class="bg" id="wrapper">
     <div id="wrapper">
-        <div class="topnav">
+        <div class="navbar">
             <a href="contribute.html">Contribute</a>
             <a href="minecraft.html">Minecraft</a>
             <div class="dropdown">
