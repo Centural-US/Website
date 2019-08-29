@@ -1,0 +1,139 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Minecraft Bedrock</title>
+    <style>
+      /* Background img */
+      body, html {
+        height:100%
+      }
+      .bg{
+        background-image: url("images/Centural_Backdrop_2.png");
+        background-attachment: fixed;
+        height:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .active{
+        background-color: crimson
+      }
+      /* hr code */
+      hr { 
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 5px;
+      } 
+      /* bottom nav */
+      .bottomnavbar {
+        background-color: rgb(212, 212, 212);
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+      .bottomnavbar a {
+        float: left;
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .bottomnavbar a:hover {
+        background-color: rgb(78, 78, 78);
+        color: rgb(255, 255, 255);
+      }
+    </style>
+  </head>
+  <body class="bg" id="wrapper">
+    <div id="wrapper">
+        <div class="navbar">
+            <a>Home</a>
+            <a href="contribute.html">Contribute</a>
+            <div class="dropdown">
+              <button class="dropbtn">Minecraft</button>
+              <div class="dropdown-content">
+                <a href="Minecraft HTML Files/minecraft_java.html">Minecraft Java Edition</a>
+                <a class="active" href="Minecraft HTML Files/minecraft_bedrock.html">Minecraft Bedrock Edition</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Tester Zone</button>
+              <div class="dropdown-content">
+                <a href="Tester Zone/GTAV.html">GTA V</a>
+                <a href="Tester Zone/FreeSo.html">Free Sims Online</a>
+                <a href="Tester Zone/Openrtc.html">Open Roller Tycoon</a>
+                <a href="Tester Zone/Opensimulator.html">Open Simulator</a>
+              </div>
+            </div>
+            <a href="about.html">About</a>
+        </div>
+        <hr>
+        <div>
+          <center><img src="images/Logo.png" width="15%" height="15%"></img></center>
+          <a href="https://minecraftservers.org/server/550651" target="_blank"><img src="https://status.minecraftservers.org/classic/550651.png" alt="Centural Minecraft server" width="540" height="90" /></a>
+        </div>
+    </div>
+  <!-- Bottom Discord -->
+    <div class="bottomnavbar">
+        <a href="https://discord.gg/hkxddzG" target="blank"><img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo.png" width="6%" height="6%" alt="Join the Discord!"></a>
+    </div>
+  </body>
+</html>
