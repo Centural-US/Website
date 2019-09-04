@@ -138,7 +138,8 @@
           <center><img src="/images/Logo.png" width="15%" height="15%"></img></center>
           <a href="https://minecraftservers.org/server/550651" target="_blank"><img src="https://status.minecraftservers.org/sunset/550651.png" alt="Centural Minecraft server" width="540" height="90" /></a>
       </div>
-      <div class="patchnotes">
+      <button onclick="showdiv_patchnotes()"></button>
+      <div class="patchnotes" id="patchnotes_div">
         <p class>
           <center><p>Patch Notes</p></center>
           Release Date: 2019 April<br>
@@ -181,5 +182,15 @@
     <div class="bottomnavbar">
         <a href="https://discord.gg/hkxddzG" target="blank"><img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo.png" width="6%" height="6%" alt="Join the Discord!"></a>
     </div>
+    <script>
+      function mydiv_patchnotes() {
+        var x = document.getElementById("patchnotes_div");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
