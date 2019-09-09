@@ -65,31 +65,6 @@
         font-family: inherit;
         margin: 0;
       }
-      /**MENU ANIMATION**/
-      .container {
-        display: inline-block;
-        cursor: pointer;
-      }
-
-      .bar1, .bar2, .bar3 {
-        width: 25;
-        height: 4px;
-        background-color: #333;
-        margin: 3 0;
-        transition: 0.4s;
-      }
-
-      .change .bar1 {
-        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-        transform: rotate(-45deg) translate(-9px, 6px);
-      }
-
-      .change .bar2 {opacity: 0;}
-
-      .change .bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px);
-        transform: rotate(45deg) translate(-8px, -8px);
-      }
       /* Hover navbar */
       .navbar a:hover, .dropdown:hover .dropbtn {
         background-color: red; 
@@ -170,14 +145,12 @@
         <a class="active">Home</a>
         <a href="contribute.html">Contribute</a>
         <div class="dropdown">
-          <!--Minecraft Dropdown-->
           <button class="dropbtn">Minecraft</button>
           <div class="dropdown-content">
             <a href="Minecraft HTML Files/minecraft_java.html">Minecraft Java Edition</a>
             <a href="Minecraft HTML Files/minecraft_bedrock.html">Minecraft Bedrock Edition</a>
           </div>
         </div>
-        <!--Tester Zone Dropdown-->
         <div class="dropdown">
           <button class="dropbtn">Tester Zone</button>
           <div class="dropdown-content">
@@ -188,21 +161,11 @@
           </div>
         </div>
         <a href="about.html">About</a>
-        <div class="dropdown">
-          <div class="container, dropbtn" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>
+        <div class="dropdown" align=right>
+          <button class="dropbtn">Social Media</button>
           <div class="dropdown-content">
-            <a>Follow us on Twitter</a>
+            <a>Twitter</a>
           </div>
-          <!--SCRIPTS FOR MENU BUTTON-->
-          <script>
-            function myFunction(x) {
-              x.classList.toggle("change");
-            }
-            </script>
         </div>
       </div>
     </div>
