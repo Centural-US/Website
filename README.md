@@ -14,5 +14,5 @@ Though please still have your friends contact an Operator even if they do not me
 
 # Goals
 
--Determine a way to store a private key on github...?
--A nice website.
+- Determine a way to store a private key on github...?
+- A nice website.

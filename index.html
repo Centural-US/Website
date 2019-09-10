@@ -1,94 +1,75 @@
 <!doctype HTML>
 <!--
 
-       <p> Feel free to take a look at our code, we have some explanations for stuff </p>
+       <p> Digging around? Keep going!</p>
        <p> Join the centural web development team!
-             https://forms.gle/TFz8wWSgk5fU2xW69
+             <a href="https://forms.gle/TFz8wWSgk5fU2xW69">https://forms.gle/TFz8wWSgk5fU2xW69</a>
        </p>
+
 
        - Happy Snooping! ;)
 
-          -Centural US Web Developement Team
-        -->
+          -Centural.us Web Developement Team 
+        
+        
+-->
 <html>
   <head>
-    
     <title>Centural - US</title>
+    <!-- Ads still under testing phase, not working ATM
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js%22%3E"></script>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-5811408150538050","enable_page_level_ads": true
-        });
-      </script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-5811408150538050","enable_page_level_ads": true
+      });
+    </script>
+    -->
     <style>
-      /* Background img */
       body, html {
         height:100%
       }
+
+      /* Background img */
+
       .bg{
         background-image: url("images/Centural_Backdrop_0.png"); /*Background Backdrops range from 0-9*/
-        background-attachment: fixed;
-        height:100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-attachment: fixed; height:100%; background-position: center; background-repeat: no-repeat; background-size: cover;
       }
 
       /*Top navigation bar*/
 
       .navbar {
-        overflow: hidden;
-        background-color: #333;
+        overflow: hidden; background-color: #333;
       }
       .navbar a {
-        float: left;
-        font-size: 16px;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+        float: left; /* Right Aligned is float:right; */ 
+        font-size: 16px; color: white; text-align: center;
+        padding: 14px 16px; text-decoration: none;
       }
-      /* Navigation bar code ends
-      Drop down */
+
+      /*Dropdown*/
+
       .dropdown {
-        float: left;
-        overflow: hidden;
+        float: left; overflow: hidden;
       }
       /* Dropdown settings */
       .dropdown .dropbtn {
-        font-size: 16px;  
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
+        font-size: 16px;   border: none; outline: none; color: white; padding: 14px 16px; background-color: inherit;
+        font-family: inherit; margin: 0;
       }
-      /* Hover navbar */
+      /* Hover navbar and dropdown */
       .navbar a:hover, .dropdown:hover .dropbtn {
         background-color: red; 
       }
 
       .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
+        display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;
       }
 
       .dropdown-content a {
-        float: none;
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
+        float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left;
       }
-      /* Dropdown ends
-      Hover settings */
+      /*Dropdown content Hover*/
       .dropdown-content a:hover {
         background-color: #ddd;
       }
@@ -102,38 +83,16 @@
       }
 
 
-      /* block line code */
-      hr { 
-        display: block;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: inset;
-        border-width: 5px;
-      } 
-
-      /* bottom nav */
+      /* Bottom Navigation Bar */
 
       .bottomnavbar {
-        background-color: rgb(212, 212, 212);
-        overflow: hidden;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
+        background-color: rgb(212, 212, 212); overflow: hidden; position: fixed; bottom: 0; width: 100%;
       }
       .bottomnavbar a {
-        float: left;
-        display: block;
-        color: #000000;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
+        float: left; display: block; color: #000000; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;
       }
       .bottomnavbar a:hover {
-        background-color: rgb(78, 78, 78);
-        color: rgb(255, 255, 255);
+        background-color: rgb(78, 78, 78); color: rgb(255, 255, 255);
       }
     </style>
     
