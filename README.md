@@ -6,7 +6,7 @@ This repo should remain private until a complete launch has occured. Then we MUS
 To invite a friend to work on the project please have them contact an Operator. The Operator List can be found on the shared google drive.
 
 Requirments to develop:
-- Knowledge of Javascript,HTML,CSS, etc. (Basically you can learn to read and write any language we may need for the project)
+- Knowledge of Javascript, HTML, CSS, etc. (Basically you can learn to read and write any language we may need for the project)
 - Large amount of game-time and/or personal interaction with Operators. (We do not wish to have bad code additions for malicious reasons)
 - Passion for the game/community.
 
