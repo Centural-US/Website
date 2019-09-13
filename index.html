@@ -1,94 +1,67 @@
 <!doctype HTML>
 <!--
 
-       <p> Feel free to take a look at our code, we have some explanations for stuff </p>
+       <p> Digging around? Keep going!</p>
        <p> Join the centural web development team!
-             https://forms.gle/TFz8wWSgk5fU2xW69
+             <a href="https://forms.gle/HELbzrPds3miyUHN7">https://forms.gle/HELbzrPds3miyUHN7</a>
        </p>
+
 
        - Happy Snooping! ;)
 
-          -Centural US Web Developement Team
-        -->
+          -Centural.us Web Developement Team 
+        
+        
+-->
 <html>
   <head>
-    
     <title>Centural - US</title>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js%22%3E"></script>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-5811408150538050","enable_page_level_ads": true
-        });
-      </script>
     <style>
-      /* Background img */
       body, html {
         height:100%
       }
+
+      /* Background img */
+
       .bg{
         background-image: url("images/Centural_Backdrop_0.png"); /*Background Backdrops range from 0-9*/
-        background-attachment: fixed;
-        height:100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-attachment: fixed; height:100%; background-position: center; background-repeat: no-repeat; background-size: cover;
       }
 
       /*Top navigation bar*/
 
       .navbar {
-        overflow: hidden;
-        background-color: #333;
+        overflow: hidden; background-color: #333;
       }
       .navbar a {
-        float: left;
-        font-size: 16px;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+        float: left; /* Right Aligned is float:right; */ 
+        font-size: 16px; color: white; text-align: center;
+        padding: 14px 16px; text-decoration: none;
       }
-      /* Navigation bar code ends
-      Drop down */
+
+      /*Dropdown*/
+
       .dropdown {
-        float: left;
-        overflow: hidden;
+        float: left; overflow: hidden;
       }
-      /* Dropdown settings */
+        /* Dropdown settings */
       .dropdown .dropbtn {
-        font-size: 16px;  
-        border: none;
-        outline: none;
-        color: white;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
+        font-size: 16px;   border: none; outline: none; color: white; padding: 14px 16px; background-color: inherit;
+        font-family: inherit; margin: 0;
       }
-      /* Hover navbar */
+        /* Hover navbar and dropdown */
       .navbar a:hover, .dropdown:hover .dropbtn {
         background-color: red; 
       }
 
       .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
+        display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;
       }
 
       .dropdown-content a {
-        float: none;
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
+        float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left;
       }
-      /* Dropdown ends
-      Hover settings */
+      /*Dropdown content Hover*/
       .dropdown-content a:hover {
         background-color: #ddd;
       }
@@ -102,40 +75,17 @@
       }
 
 
-      /* block line code */
-      hr { 
-        display: block;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: inset;
-        border-width: 5px;
-      } 
-
-      /* bottom nav */
+      /* Bottom Navigation Bar */
 
       .bottomnavbar {
-        background-color: rgb(212, 212, 212);
-        overflow: hidden;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
+        background-color: rgb(212, 212, 212); overflow: hidden; position: fixed; bottom: 0; width: 100%;
       }
       .bottomnavbar a {
-        float: left;
-        display: block;
-        color: #000000;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
+        float: left; display: block; color: #000000; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;
       }
       .bottomnavbar a:hover {
-        background-color: rgb(78, 78, 78);
-        color: rgb(255, 255, 255);
+        background-color: rgb(78, 78, 78); color: rgb(255, 255, 255);
       }
-
     </style>
     
   </head>
@@ -145,6 +95,7 @@
       <div class="navbar">
         <a class="active">Home</a>
         <a href="contribute.html">Contribute</a>
+        <!--Minecraft Dropdown-->
         <div class="dropdown">
           <button class="dropbtn">Minecraft</button>
           <div class="dropdown-content">
@@ -162,14 +113,25 @@
           </div>
         </div>
         <a href="about.html">About</a>
+        <div class="dropdown" style="float:right">
+          <button class="dropbtn" style="margin-right: 25px">Social Media</button>
+          <div class="dropdown-content">
+            <a target="_blank">Twitter</a>
+            <a target="_blank">Instagram</a>
+            <a target="_blank">Facebook</a>
+            <a href="https://github.com/Centural-US" target="_blank">Github</a>
+          </div>
+        </div>
       </div>
-      <br>
     </div>
+    <br>
     <!--Minecraft Banner-->
     <div>
       <center><img src="images/Logo.png" width="15%" height="15%"></img></center>
       <a href="https://minecraftservers.org/server/550651" target="_blank"><img src="https://status.minecraftservers.org/sunset/550651.png" alt="Centural Minecraft server" width="540" height="90" /></a>
     </div>
+    <!---KEEP CONTENT BELOW THIS COMMENT-->
+    <!---KEEP CONTENT ABOVE THIS COMMENT-->
   <!-- Bottom Discord -->
     <div class="bottomnavbar">
       <a href="https://discord.gg/hkxddzG" target="blank"><img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo.png" width="6%" height="6%" alt="Join the Discord!"></a>
