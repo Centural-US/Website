@@ -23,3 +23,7 @@ Though please still have your friends contact an Operator even if they do not me
 # Contact
 
 - [Discord](https://discord.gg/XuGscCt)
+
+# Partners
+
+- [Jacob's Computers](https://jacobs-computers.weeblysite.com/s/shop)
