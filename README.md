@@ -1,4 +1,5 @@
 # Centural.us
+
 A website with complete Minecraft integration through the use of a remote console (RCON) and possible by other means.
 
 This repo should remain private until a complete launch has occured. Then we MUST have a working copy of that version posted as public on GitHub or a similar site/service.
@@ -16,3 +17,9 @@ Though please still have your friends contact an Operator even if they do not me
 
 - Determine a way to store a private key on github...?
 - A nice website.
+
+---
+
+# Contact
+
+- [Discord](https://discord.gg/XuGscCt)
