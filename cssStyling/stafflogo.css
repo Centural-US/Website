@@ -1,0 +1,7 @@
+/* Staff logo css */
+.staff_logo_box {
+    position: fixed; bottom: 0; right: 0;
+}
+.staff_logo_img {
+    height: 10%; width: auto;
+}

@@ -12,14 +12,15 @@
           -Centural.us Web Developement Team 
             
 -->
+
+
 <html lang="en-US">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
-  <link href="/serverstatus/serverstatus.css" rel="stylesheet">
+  <link rel="stylesheet" href="cssStyling/navbar.css">
   <head>
     <title>Centural - US</title>
     <style>
-
       body, html {
         height:100%
       }
@@ -28,72 +29,7 @@
         background-image: url("images/Centural_Backdrop_0.png"); /*Background Backdrops range from 0-9*/
         background-attachment: fixed; height:100%; background-position: center; background-repeat: no-repeat; background-size: cover;
       }
-
-      /*Top navigation bar*/
-
-      .navbar {
-        overflow: hidden; background-color: #333;
-      }
-      .navbar a {
-        float: left; /* Right Aligned is float:right; */ 
-        font-size: 20px; color: white; text-align: center;
-        padding: 14px 16px; text-decoration: none;
-        font-family: 'VT323', monospace
-      }
-        /*Dropdown*/
-      .dropdown {
-        float: left; overflow: hidden;
-      }
-        /* Dropdown settings */
-      .dropdown .dropbtn {
-        font-size: 20px;   border: none; outline: none; color: white; padding: 14px 16px; background-color: inherit;
-        font-family: 'VT323', monospace; margin: 0;
-      }
-        /* Hover navbar and dropdown */
-      .navbar a:hover, .dropdown:hover .dropbtn {
-        background-color: red; 
-      }
-      .dropdown-content {
-        display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;
-      }
-      .dropdown-content a {
-        float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left;
-      }
-        /*Dropdown content Hover*/
-      .dropdown-content a:hover {
-        background-color: #ddd;
-      }
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-        /* Class "active" for top navigation bar */
-      .active{
-        background-color: crimson
-      }
-
-      /* Bottom Navigation Bar */
-
-      .bottomnavbar {
-        background-color: rgb(212, 212, 212); overflow: hidden; position: fixed; bottom: 0; width: 100%;
-      }
-      .bottomnavbar a {
-        float: left; display: block; color: #000000; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;
-      }
-      .bottomnavbar a:hover {
-        background-color: rgb(78, 78, 78); color: rgb(255, 255, 255);
-      }
-      /* Staff logo css */
-      .staff_logo_box {
-        position: fixed; bottom: 0; right: 0;
-      }
-      .staff_logo_img {
-        height: 10%; width: auto;
-      }
-
     </style>
-
-
-    <!--Script(s)-->
 
 
   </head>
@@ -172,30 +108,6 @@
       <a href="https://minecraftservers.org/server/550651" target="_blank"><img src="https://status.minecraftservers.org/sunset/550651.png" alt="Centural Minecraft server" width="35%" height="12%" /></a>
     </div>
 
-    <script>
-      //based on a pen by @robinselmer
-     var url = "https://api.minetools.eu/ping/centural.us/25565";
-     //https://mcapi.us/server/status?ip=666.fluctis.com&port=25757
-      $.getJSON(url, function(r) {
-     //data is the JSON string
-      if(r.error){
-        $('#rest').html('Server Offline');
-     return false;
-     } 
-    var pl = '';
-    if(r.players.sample.length > 0 ){ pl = '<br>OP: '+r.players.sample[0].name;  } 
-      $('#rest').html(r.description.replace(/§(.+?)/gi, '')+'<br><b>Players Online:</b> '+r.players.online+pl);
-    $('#favicon').attr('src', r.favicon);
-    });
-</script>
-    <div class="card"> <div class="icon"><img src="https://pbs.twimg.com/profile_images/808180587605331969/u-CULTwl_400x400.jpg" id="favicon"></div><div class="header">
-      <div class="image"> <img src="https://pbs.twimg.com/media/C2bx8KGWQAEORsE.jpg" alt="" /> </div>
-     
-      <h2>Centural.us</h2>
-      </div>
-      <div id="rest">Loading ...</div>
-    </div>
-    
 
     <!--Staff logo-->
     <div class="staff_logo_box"><a href="/contribute/staff_roles.html"><img style="height: 300px; width: auto;" src="/images/staff logo.png" draggable="false"></a></div>
