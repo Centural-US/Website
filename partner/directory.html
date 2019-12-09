@@ -10,141 +10,84 @@
        - Happy Snooping! ;)
 
           -Centural.us Web Developement Team 
-        
-        
+            
 -->
-<html>
+
+
+<html lang="en-US">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/cssStyling/navbar.css"><link rel="stylesheet" href="/cssStyling/bottomnavbar.css">
   <head>
-    <title>Centural - US</title>
+    <title>Directory</title>
     <style>
       body, html {
         height:100%
       }
-
       /* Background img */
-
       .bg{
-        background-image: url("/images/Centural_Backdrop_5.png"); /*Background Backdrops range from 0-9*/
+        background-image: url("images/Centural_Backdrop_8.png"); /*Background Backdrops range from 0-9*/
         background-attachment: fixed; height:100%; background-position: center; background-repeat: no-repeat; background-size: cover;
       }
-
-      /*Top navigation bar*/
-
-      .navbar {
-        overflow: hidden; background-color: #333;
-      }
-      .navbar a {
-        float: left; /* Right Aligned is float:right; */ 
-        font-size: 20px; color: white; text-align: center;
-        padding: 14px 16px; text-decoration: none;
-        font-family: 'VT323', monospace
-      }
-
-      /*Dropdown*/
-
-      .dropdown {
-        float: left; overflow: hidden;
-      }
-        /* Dropdown settings */
-      .dropdown .dropbtn {
-        font-size: 20px;   border: none; outline: none; color: white; padding: 14px 16px; background-color: inherit;
-        font-family: 'VT323', monospace; margin: 0;
-      }
-        /* Hover navbar and dropdown */
-      .navbar a:hover, .dropdown:hover .dropbtn {
-        background-color: red; 
-      }
-
-      .dropdown-content {
-        display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;
-      }
-
-      .dropdown-content a {
-        float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left;
-      }
-      /*Dropdown content Hover*/
-      .dropdown-content a:hover {
-        background-color: #ddd;
-      }
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-      /* Class "active" for top navigation bar */
-      .active{
-        background-color: crimson
-      }
-
-
-      /* Bottom Navigation Bar */
-
-      .bottomnavbar {
-        background-color: rgb(212, 212, 212); overflow: hidden; position: fixed; bottom: 0; width: 100%;
-      }
-      .bottomnavbar a {
-        float: left; display: block; color: #000000; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;
-      }
-      .bottomnavbar a:hover {
-        background-color: rgb(78, 78, 78); color: rgb(255, 255, 255);
-      }
-      /* Staff logo css */
-      .staff_logo_box {
-        position: fixed; bottom: 0; right: 0;
-      }
-      .staff_logo_img {
-        height: 10%; width: auto;
-      }
     </style>
+
+
   </head>
 
 
+
+
   <body class="bg" id="wrapper">
+
     <!--Top Navigation bar starts here-->
     <div id="wrapper">
       <div class="navbar">
-        <a href="/index.html">Home</a>
+        <a class="active">Home</a>
         <div class="dropdown" id="contribute">
           <button class="dropbtn">Contribute</button>
           <div class="dropdown-content">
             <a href="https://minecraftservers.org/server/550651" target="_blank">Vote</a>
-            <a href="/contribute/donate.html">Donate</a>
-            <a href="/contribute/referral_links.html">Refferal Links</a>
-            <a href="/contribute/staff_roles.html">Apply for Staff Role</a>
+            <a href="contribute/donate.html">Donate</a>
+            <a href="contribute/referral_links.html">Refferal Links</a>
+            <a href="contribute/staff_roles.html">Apply for Staff Role</a>
           </div>
         </div>
+
         <!--Minecraft Dropdown-->
         <div class="dropdown">
           <button class="dropbtn" id="minecraft">Minecraft</button>
           <div class="dropdown-content">
-            <a href="/Minecraft HTML Files/minecraft_java.html">Minecraft Java Edition</a>
-            <a href="/Minecraft HTML Files/minecraft_bedrock.html">Minecraft Bedrock Edition</a>
+            <a href="Minecraft HTML Files/minecraft_java.html">Minecraft Java Edition</a>
+            <a href="Minecraft HTML Files/minecraft_bedrock.html">Minecraft Bedrock Edition</a>
           </div>
         </div>
+
         <div class="dropdown" id="testerZone">
-            <button class="dropbtn">Tester Zone</button>
-            <div class="dropdown-content">
-              <a href="Tester Zone/GTAV.html"><img src="/images/icons/https-24px.svg" height="15px" width="15px">  GTA V</a>
-              <a href="Tester Zone/FreeSo.html"><img src="/images/icons/https-24px.svg" height="15px" width="15px">  Free Sims Online</a>
-              <a href="Tester Zone/Openrtc.html"><img src="/images/icons/https-24px.svg" height="15px" width="15px">  Open Roller Tycoon</a>
-              <a href="Tester Zone/Opensimulator.html"><img src="/images/icons/https-24px.svg" height="15px" width="15px">  Open Simulator</a>
-            </div>
+          <button class="dropbtn">Tester Zone</button>
+          <div class="dropdown-content">
+            <a href="Tester Zone/GTAV.html"><img src="/images/icons/https-24px.svg" height="15px" width="15px">  GTA V</a>
+            <a href="Tester Zone/FreeSo.html"><img src="/images/icons/https-24px.svg" height="15px" width="15px">  Free Sims Online</a>
+            <a href="Tester Zone/Openrtc.html"><img src="/images/icons/https-24px.svg" height="15px" width="15px">  Open Roller Tycoon</a>
+            <a href="Tester Zone/Opensimulator.html"><img src="/images/icons/https-24px.svg" height="15px" width="15px">  Open Simulator</a>
           </div>
-        <a href="/about.html">About</a>
+        </div>
+
+        <a href="about.html">About</a>
         <div class="dropdown" id="socialMedia" style="float:right">
           <button class="dropbtn" style="margin-right: 25px">Social Media</button>
           <div class="dropdown-content">
             <a target="_blank">Twitter</a>
             <a target="_blank">Instagram</a>
             <a target="_blank">Facebook</a>
-            <a href="/https://github.com/Centural-US" target="_blank">Github</a>
+            <a href="https://github.com/Centural-US" target="_blank">Github</a>
           </div>
         </div>
+        
         <div class="dropdown" id="partner" style="float: right;">
           <button class="dropbtn">Partner</button>
           <div class="dropdown-content">
-            <a id="serverDirectory">Partner Server Directory</a>
-            <a href="/partner/apply.html" id="applyForPartnership">Apply for Free Partnership</a>
+            <a href="/partner/directory.html" id="serverDirectory">Partner Server Directory</a>
+            <a href="/partner/apply.html"id="applyForPartnership">Apply for Free Partnership</a>
             <a id="purchaseAndHostingOptions">Purchase/Self Hosting Options</a>
             <a id="moreInformationPartner">More Information</a>
           </div>
@@ -158,13 +101,10 @@
     <!--Minecraft Banner-->
     <div>
       <center>
-        <img src="/images/Logo.png" width="15%" height="15%"></img>
+        <img src="images/Logo.png" width="15%" height="15%"></img>
       </center>
       <a href="https://minecraftservers.org/server/550651" target="_blank"><img src="https://status.minecraftservers.org/sunset/550651.png" alt="Centural Minecraft server" width="35%" height="12%" /></a>
     </div>
-
-
-
     <!-- Bottom Discord -->
     <div class="bottomnavbar">
       <a href="https://discord.gg/hkxddzG" target="blank"><img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo.png" width="6%" height="6%" alt="Join the Discord!"></a>
