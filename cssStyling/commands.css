@@ -4,6 +4,8 @@
     margin-top: 2%;
     margin-bottom: 2%;
     padding: 2%;
-    background-color: rgba(153, 153, 153, 0.651);
+    background-color: rgba(153, 153, 153, 0.384);
+    color: white;
+    text-shadow: 3px 3px 4px black;
     font-family: 'Ubuntu Mono';
 }
