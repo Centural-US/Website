@@ -1,7 +1,9 @@
 .commands {
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: 2%;
-    background-color: rgba(153, 153, 153, 0.767);
+    background-color: rgba(153, 153, 153, 0.651);
     font-family: 'Ubuntu Mono';
 }
