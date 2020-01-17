@@ -1,0 +1,12 @@
+.partnertable table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Ubuntu Mono';
+}
+.partnertable tr {
+    border: 1px solid   black;
+}
+.partnertable th, td{
+    padding: 8px;
+    text-align: left;
+}
