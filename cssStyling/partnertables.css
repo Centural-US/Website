@@ -7,6 +7,9 @@
 .partnertable tr {
     border: 1px solid   black;
 }
+.partnertable th{
+    background-color: rgba(253, 253, 253, 0.897);
+}
 .partnertable th, td{
     padding: 8px;
     text-align: left;
