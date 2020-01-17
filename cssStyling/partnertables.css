@@ -1,8 +1,9 @@
 .partnertable table {
-    width: 100%;
-    border: 1px black;
+    border: 1px solid black;
     border-collapse: collapse;
+    padding: 5px;
     font-family: 'Ubuntu Mono';
+    border-spacing: 5px;
 }
 .partnertable tr {
     border: 1px solid black;
