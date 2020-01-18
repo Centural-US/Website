@@ -19,7 +19,6 @@
   <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/cssStyling/navbar.css"><link rel="stylesheet" href="/cssStyling/bottomnavbar.css">
   <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
-  <link href="/cssStyling/partnertables.css" rel="stylesheet">
   <head>
     <title>Directory</title>
     <style>
@@ -31,12 +30,22 @@
         background-image: url("/images/Centural_Backdrop_8.png"); /*Background Backdrops range from 0-9*/
         background-attachment: fixed; height:100%; background-position: center; background-repeat: no-repeat; background-size: cover;
       }
+
+      table{
+        font-family: 'Ubuntu Mono';
+        border-collapse: collapse;
+        width: 90%;
+      }
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
     </style>
 
 
   </head>
-
-
 
 
   <body class="bg" id="wrapper">
@@ -79,7 +88,7 @@
           <button class="dropbtn" style="margin-right: 25px">Social Media</button>
           <div class="dropdown-content">
             <a target="_blank">Twitter</a>
-            <a target="_blank">Instagram</a>
+           <a target="_blank">Instagram</a>
             <a target="_blank">Facebook</a>
             <a href="https://github.com/Centural-US" target="_blank">Github</a>
           </div>
@@ -113,8 +122,10 @@
     <center>
       <div class="partnertables">
         <table id="parterDirectorytable">
-          <tr><th>Slot 1</th ><th>Slot 2</th><th>Slot 3</th><th>Slot 4</th><th>Slot 5</th></tr style="background-color: beige;">
-          <tr><td>Claimed/In-Use</td><td>Claimed/In-Use</td><td>Underconstruction/Unclaimed</td><td>Underconstruction/Unclaimed</td><td>Underconstruction/Unclaimed</td></tr>
+          <tr><th></th><th>Slot 1</th ><th>Slot 2</th><th>Slot 3</th><th>Slot 4</th><th>Slot 5</th></tr>
+          <tr>
+            <td>Status</td><td>Claimed/In-Use</td><td>Claimed/In-Use</td><td>Underconstruction/Unclaimed</td><td>Underconstruction/Unclaimed</td><td>Underconstruction/Unclaimed</td>
+          </tr>
         </table>
       </div>
     </center>
