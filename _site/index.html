@@ -10,29 +10,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
         <!--Links-->
-            <link href="/assets/css/navbar.css"> <!--Top Navigation Bar CSS-->
             <!--Fonts-->
                 <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
                 <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
         <style>
-            .body, html {
-                height: 100%;
-            }
-            .backgroundImage {
-                background-image: url("/assets/images/Centural_Backdrop_0.png"); /*Background Ranges from 0-9*/
-                background-attachment: fixed;
-                height: 100%;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
+            .body, html {height: 100%;}
+            .backgroundImage { background-image: url("/assets/images/Centural_Backdrop_0.png"); /*Background Ranges from 0-9*/ background-attachment: fixed; height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+            .navbar {overflow: hidden; background-color: #333;}
+            .navbar a {float: left; font-size: 20px; color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-family: 'VT323', monospace;}
+            .dropdown {float: left; overflow: hidden;}
+            .dropdown .dropbtn {font-size: 20px; border: none; outline: none; color: white; padding: 14px 16px; background-color: inherit; font-family: 'VT323', monospace; margin: 0;}
+            .navbar a:hover, .dropdown:hover .dropbtn {background-color: red;}
+            .dropdown-content {display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); z-index: 1;}
+            .dropdown-content a {float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left;}
+            .dropdown-content a:hover {background-color: #ddd;}
+            .dropdown:hover .dropdown-content {display: block;}
+            .active {background-color: crimson;}
         </style>
     </head>
     <body class="backgroundImage" id="wrapper">
-        <h1 id="home">Home</h1>
-
-<p>Hello World!</p>
-
-
+        <div class="navbar">
+            <a href="/index">Home</a>
+            <div class="dropdown" id="contribute">
+                <button class="dropbtn">Contribute</button>
+                <div class="dropdown-content">
+                    <a href="https://minecraftservers.org/server/550651" target="_blank">Vote</a>
+                    <a href="/websites/contribute/donate">Donate</a>
+                    <a href="/websites/contribute/refferal_links">Refferal Links</a>
+                    <a href="/websites/contribute/staff">Staff</a>
+                </div>
+            </div>
+            <div class="dropdown" id="minecraft">
+                <button class="dropbtn">Minecraft Servers</button>
+                <div class="dropdown-content">
+                    <a href="/websites/minecraft/javaserver">Java Edition</a>
+                    <a href="/websites/minecraft/bedrockserver">Bedrock Edition</a>
+                </div>
+            </div>    
+        </div>
+        <div>
+            <!DOCTYPE html>
+<html>
+    
+</html>
+ 
+        </div>
     </body>
 </html>
