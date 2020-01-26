@@ -1,0 +1,3 @@
+.bottomnavbar {background-color: rgb(212, 212, 212); overflow: hidden; position: fixed; bottom: 0; width: 100%;}
+.bottomnavbar a {float: left; display: block; color: #000000; text-align: center; padding: 14px, 16px; text-decoration: none; font-size: 17px;}
+.bottomnavbar a:hover {background-color: rgb(78, 78, 78); color: rgb(255, 255, 255);}
