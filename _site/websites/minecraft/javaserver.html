@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--
+    Welcome To Centural!
+    If your interested in becoming a web developer, contact BonesdogNardwe!
+
+    - Centural Web Development Team
+-->
+<html lang="en-US">
+    <!--Correct Scaling accross all platforms-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <!--Links-->
+            <!--Fonts-->
+                <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+                <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
+        <style>
+            .body, html {height: 100%;}
+            /*Navigation Bar*/
+                .navbar {overflow: hidden; background-color: #333;}
+                .navbar a {float: left; font-size: 20px; color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-family: 'VT323', monospace;}
+                .dropdown {float: left; overflow: hidden;}
+                .dropdown .dropbtn {font-size: 20px; border: none; outline: none; color: white; padding: 14px 16px; background-color: inherit; font-family: 'VT323', monospace; margin: 0;}
+                .navbar a:hover, .dropdown:hover .dropbtn {background-color: red;}
+                .dropdown-content {display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); z-index: 1;}
+                .dropdown-content a {float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left;}
+                .dropdown-content a:hover {background-color: #ddd;}
+                .dropdown:hover .dropdown-content {display: block;}
+                .active {background-color: crimson;}
+            /*Staff Logo*/
+                .staff_logo_box {position: fixed; bottom: 2%; right: 0;}
+                .staff_logo_img {height: 10%; width: auto;}
+            /*Bottom Navigation Bar*/
+                .bottomnavbar {background-color: rgb(212, 212, 212); overflow: hidden; position: fixed; bottom: 0; width: 100%;}
+                .bottomnavbar a {float: left; display: block; color: #000000; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px;}
+                .bottomnavbar a:hover {background-color: rgb(78, 78, 78); color: rgb(255, 255, 255);}
+        </style>
+    </head>
+    <body class="backgroundImage" id="wrapper">
+        <div class="navbar">
+            <a href="/">Home</a>
+            <div class="dropdown" id="contribute">
+                <button class="dropbtn">Contribute</button>
+                <div class="dropdown-content">
+                    <a href="https://minecraftservers.org/server/550651" target="_blank">Vote</a>
+                    <a href="/websites/contribute/donate">Donate</a>
+                    <a href="/websites/contribute/refferal_links">Refferal Links</a>
+                    <a href="/websites/contribute/staff">Staff</a>
+                </div>
+            </div>
+            <div class="dropdown" id="minecraft">
+                <button class="dropbtn">Minecraft Servers</button>
+                <div class="dropdown-content">
+                    <a href="/websites/minecraft/javaserver">Java Edition</a>
+                    <a href="/websites/minecraft/bedrockserver">Bedrock Edition</a>
+                </div>
+            </div>
+            <div class="dropdown" id="testerzone">
+                <button class="dropbtn">Tester Zone</button>
+                <div class="dropdown-content">
+                    <a href="/websites/testerzone/gta">GTA V</a>
+                    <a href="/websites/testerzone/freeso">FreeSo</a>
+                    <a href="/websites/testerzone/openrtc">Open RTC</a>
+                    <a href="/websites/testerzone/opensim">Open Simulator</a>
+                </div>
+            </div>
+            <a href="/websites/about">About</a>
+            <a href="/websites/privacy">Privacy Act</a>
+            <div class="dropdown" id="socialmedia" style="float: right;">
+                <button class="dropbtn">Social Media</button>
+                <div class="dropdown-content">
+                    <a target="_blank">Twitter</a>
+                    <a target="_blank">Instagram</a>
+                    <a target="_blank">Facebook</a>
+                    <a href="https://github.com/Centural-US" target="_blank">Github</a>
+                </div>
+            </div>
+            <div class="dropdown" id="partner" style="float: right;">
+                <button class="dropbtn">Partner</button>
+                <div class="dropdown-content">
+                    <a href="/websites/partner/directory">Directory</a>
+                    <a href="/websites/partner/apply">Apply for Free Partnership</a>
+                    <a href="/websites/partner/purchase">Purchase/Self Hosting Options</a>
+                    <a href="/websites/partner/moreinformation">More Information</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <center id="centuralLogo">
+                <img src="/assets/images/Logo.png" width="15%" height="15%" draggable="false" style="margin-top: 30px;">
+            </center>
+            <div id="centuralstatus">
+                <a href="https://minecraftservers.org/server/550651" target="_blank">
+                    <img src="https://status.minecraftservers.org/sunset/550651.png" alt="Centural Minecraft Server Status Information" width="35%", height="12%" draggable="false">
+                </a>
+            </div>
+        </div>
+        <div id="content">
+            <!DOCTYPE html>
+<html>
+    <head>
+        <title>Centural Java Server</title>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu Mono" rel="stylesheet">
+        <style>
+            .backgroundImage { background-image: url("/assets/images/Centural_Backdrop_4.png"); /*Background Ranges from 0-9*/ background-attachment: fixed; height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+            .patchnotes {border: 1px solid black; background-color: rgba(153, 153, 153, 0.842); font-family: 'Ubuntu Mono'; margin: 4% 20%; padding: 3%;}
+        </style>
+    </head>
+    <body>
+        <div class="patchnotes">
+            <center><h1><b>Patch Notes</b></h1></center>
+            <h3>Release Date: April 2016</h3><br><br>
+<b>[May 1, 2019]:</b>b Corrupted Player Accounts (Ask BonesdogNardwe for rollback)<br>
+<b>[May 5, 2019]:</b> /trigger warp 1 teleports you to spawn<br>
+<b>[May 5, 2019]:</b> Updated Java for server<br>
+<b>[May 13, 2019]:</b> Set server version from 1.14 to 1.14.1<br>
+<b>[May 13, 2019]:</b> New Commands<br>
+/trigger sethome<br>
+/trigger home (Alpha Phase)<br>
+/trigger spawn<br>
+<b>[May 14, 2019]:</b> Added GUI (Graphical User Interface)<br>
+/trigger gui<br>
+Features:<br>
+- Wild, Spawn, Hostile, Set Home, Teleport Home, Hire<br>
+<b>[May 23, 2019]:</b> Added villagers that trade non-hostile spawn eggs<br>
+<b>[May 27, 2019]:</b> Server has been upgraded from 1.14.1 to 1.14.2<br>
+<b>[May 28, 2019]:</b> Now accepting BAT donations!<br>
+<b>[June 9, 2019]:</b> Home Teleport Bug patched<br>
+<b>[June 16, 2019]:</b> New Commands<br>
+/trigger return<br>
+/trigger setreturn<br>
+<b>[June 24, 2019]:</b> Server has been updated from 1.14.2 to 1.14.3<br>
+<b>[July 18, 2019]:</b> Bedrock Edition open for testing<br>
+<b>[July 22, 2019]:</b> Server backup created<br>
+<b>[August 8, 2019]:</b> Spawn has been moved!<br>
+<b>[August 31, 2019]:</b> New Commands<br>
+/trigger tpa # (# players number)<br>
+<b>[October 26, 2019]:</b> New Halloween Update!<br>
+<b>[November 6, 2019]:</b> Invalid Music Station overlap patched<br>
+<b>[November 8, 2019]:</b> Added a temporary fix at spawn for invalid TPA ID (IE 0 due to a name change) There is a pressure plate near spawn you may step on to fix the ID until we refactor the tpa script<br>
+<b>[November 30, 2019]:</b> Santas little elfs have begun to work on adding christmas cheer to Centural! Start thinking of your wish lists for Sandie Clause as soon you will be able to mail them from the tree near spawn!<br>
+<b>[December 4th, 2019]:</b> Server updated to 1.15<br>
+<b>[January 23, 2020]:</b> Server updated to 1.15.2<br>
+        </div>
+    </body>
+</html>
+ 
+        </div>
+        <div class="staff_logo_box" id="stafflogo">
+            <a href="/websites/contribute/staff">
+                <img style="height: 150px; width: auto;" src="/assets/images/staff logo.png" draggable="false">
+            </a>
+        </div>
+        <div class="bottomnavbar">
+            <a href="https://discord.gg/hkxddzG" target="_blank">
+                <img src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo.png" width="6%" height="6%" alt="Join the Discord!">
+            </a>
+        </div>
+    </body>
+</html>
