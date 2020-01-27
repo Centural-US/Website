@@ -1,0 +1,18 @@
+---
+title: Donate
+layout: default
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .backgroundImage { background-image: url("/assets/images/Centural_Backdrop_n.png"); /*Background Ranges from 0-9*/ background-attachment: fixed; height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
+        </style>
+    </head>
+    <body>
+        <div class="">
+            {%  %}
+        </div>
+    </body>
+</html>
+ 
