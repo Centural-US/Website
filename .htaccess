@@ -4,4 +4,3 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 ErrorDocument 404.html
 
-RewriteRule /websites/contribute/donate.html /donate
