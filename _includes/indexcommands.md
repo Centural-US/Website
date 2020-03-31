@@ -5,4 +5,4 @@
 <b>/trigger tpa set #</b> Used to teleport to in-game player. <i># is the player number, which can be found by holding tab. The number is on the right of the player's username</i><br>
 <b>/trigger setreturn</b> Set XYZ coordinates for the command /trigger return <i>Note: Coordinates will be overridden if you teleport to home or spawn</i><br>
 <b>/trigger return</b> Return to XYZ coordinates <i>See: /trigger setreturn for more information</i><br>
-<b>/trigger warp set #ID</b> Warps you ti #ID <i>Note: ID is a number between 1-8</i>
+<b>/trigger warp set #ID</b> Warps you ti #ID <i>Note: ID is a number on the TAB menu in game (When you press and hold TAB on your keyboard you will see a list of players and a yellow id by their name)</i>
