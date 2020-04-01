@@ -10,7 +10,7 @@ layout: default
         <style>
             .backgroundImage { background-image: url("/assets/images/Centural_Backdrop_6.png"); /*Background Ranges from 0-9*/ background-attachment: fixed; height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;}
             .contributestyle{border: 1px solid black; background-color: rgba(153, 153, 153, 0.7); font-family: 'Manjari'; margin-left: 20%; margin-right: 20%; padding: 3%; margin-top: 3%; margin-bottom: 6%;}
-            .vote_button { background-color:#FFAA00;border: none;color: white;padding: 16px 32px;width: 256px; height:256px; text-align: center;font-size: 16px;margin: 4px 2px;opacity: 0.8;transition: 0.3s;}
+            .vote_button { background-color:#FFAA00;border: none;color: white;padding: 16px 32px;width: 128px; height:128px; text-align: center;font-size: 16px;margin: 4px 2px;opacity: 0.8;transition: 0.3s;}
             .vote_button:hover {cursor: pointer;opacity: 1;}
             .voteIframe {max-width: 100%;padding-top: 3%;padding-bottom: 3%;}
         </style>
@@ -25,6 +25,9 @@ layout: default
             }
             #top_servers_button {
                 background: url("/assets/images/top_servers.png");  
+            }
+            #minecraft_mp_button {
+                background: url("/assets/images/minecraft_mp.png"); 
             }
         </style>
         <!-- End Button Specific Styles-->
@@ -48,6 +51,7 @@ layout: default
                 <button id="minecraft_servers_button" onclick="change_vote_iframe_url('https://minecraftservers.org/vote/550651')" class="vote_button"></button>
                 <button id="server_list_games_button" onclick="change_vote_iframe_url('https://serverlist.games/vote/2730')" class="vote_button"></button>
                 <button id="top_servers_button" onclick="change_vote_iframe_url('https://topservers.com/minecraft/in-564')" class="vote_button"></button>
+                <button id="minecraft_mp_button" onclick="change_vote_iframe_url('https://minecraft-mp.com/server/249685/vote/')" class="vote_button"></button>
                 <div id="vote-click" class="voteDiv"><iframe id="vote_iframe" class="voteIframe" src="https://minecraftservers.org/vote/550651" height="500px" width="100%" allowfullscreen="" frameborder="0">
                     <p>There was an error Loading this</p>
                 </iframe></div>
