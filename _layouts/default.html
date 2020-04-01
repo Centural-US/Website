@@ -13,6 +13,7 @@
             <!--Fonts-->
                 <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
                 <link href='https://fonts.googleapis.com/css?family=Ubuntu Mono' rel='stylesheet'>
+        <!-- Lets move this into a SCSS file or something similar soon -->
         <style>
             .body, html {height: 100%;}
             /*Navigation Bar*/
@@ -35,6 +36,9 @@
         </style>
     </head>
     <body class="backgroundImage" id="wrapper">
+        
+        <!-- <base target="_parent"> -->
+        <base target="_blank"> <!-- This is a possible fix for iframe session issue -->
         <div class="navbar">
             <a href="/">Home</a>
             <div class="dropdown" id="contribute">
