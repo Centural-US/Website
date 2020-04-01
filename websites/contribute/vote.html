@@ -23,6 +23,9 @@ layout: default
             #server_list_games_button {
                 background: url("/assets/images/server_list_games.png");    
             }
+            #top_servers_button {
+                background: url("/assets/images/top_servers.png");  
+            }
         </style>
         <!-- End Button Specific Styles-->
 
@@ -42,8 +45,9 @@ layout: default
     <body>
         <div class="contributestyle">
             <div>
-                <button id="minecraft_servers_button" onclick="change_vote_iframe_url('https://minecraftservers.org/vote/550651')" class="vote_button">Vote For Centural Through <b>MinecraftServers.org!</b></button>
-                <button id="server_list_games_button" onclick="change_vote_iframe_url('https://serverlist.games/vote/2730')" class="vote_button">Test</button>
+                <button id="minecraft_servers_button" onclick="change_vote_iframe_url('https://minecraftservers.org/vote/550651')" class="vote_button"></button>
+                <button id="server_list_games_button" onclick="change_vote_iframe_url('https://serverlist.games/vote/2730')" class="vote_button"></button>
+                <button id="top_servers_button" onclick="change_vote_iframe_url('https://topservers.com/minecraft/in-564')" class="vote_button"></button>
                 <div id="vote-click" class="voteDiv"><iframe id="vote_iframe" class="voteIframe" src="https://minecraftservers.org/vote/550651" height="500px" width="100%" allowfullscreen="" frameborder="0">
                     <p>There was an error Loading this</p>
                 </iframe></div>
